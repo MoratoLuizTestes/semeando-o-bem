@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <title>Semeando o Bem</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#default" class="logo">Semeando o Bem</a>
+            <div class="header-right">
+                <a href="#contact">Como Apoiar?</a>
+                <a href="#about">Sobre</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="assets/images/imagem1.png" style="width:100%" class="images">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/imagem2.png" style="width:100%" class="images">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/images/imagem3.png" style="width:100%" class="images">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="content">
+            <h1 class="information_title">CONHEÇA O PROJETO DO SEMEANDO O BEM</h1>
+            <p class="information_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rem totam officiis velit, dolores ipsum officia quidem, qui repellat recusandae magni dolorum quibusdam optio ea eveniet nobis porro. Quisquam, obcaecati?</p>
+        </div>
+
+        <div class="parallax"></div>
+
+        <div class="content">
+            <h1 class="information_title2">A FOME TEM COR</h1>
+            <p class="information_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rem totam officiis velit, dolores ipsum officia quidem, qui repellat recusandae magni dolorum quibusdam optio ea eveniet nobis porro. Quisquam, obcaecati?</p>
+        </div>
+        
+        <div class="content-register">
+            <h1 class="register_title">É FAZENDEIRO E DESEJA APOIAR O SEMEANDO O BEM?</h1>
+            <p class="register_paragraph">Cadastre sua fazenda, após isso poderá entrar em contato com as ONGS abaixo!</p>
+        </div>
+
+        <form>
+            <div class="container">
+                <label for="fname">Seu Nome</label>
+                <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+            
+                <label for="adress">Endereço</label>
+                <input type="text" id="adress" name="adress" placeholder="Endereço da fazenda...">
+            
+                <label for="country">País</label>
+                <select id="country" name="country">
+                    <option value="Brasil">Brasil</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="paraguai">Paraguai</option>
+                </select>
+            
+                <label for="subject">Complemento</label>
+                <textarea id="subject" name="subject" placeholder="Complemento" style="height:100px"></textarea>
+            
+                <input type="submit" value="Cadastrar!">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <h3>Semeando o Bem</h3>
+        <p>
+        Autores: Daniel, Diogo, Gabriel, Gabriela de Lima e Luiz (2A)
+        </p>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
